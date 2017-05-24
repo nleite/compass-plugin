@@ -1,0 +1,11 @@
+{
+  "exercise": {
+    "title": "M101X - HW 1.1",
+    "type": "find",
+    "question": "Find more than 10 documens in the collection",
+    "validation": {
+      "query": {"_id": {"$type": "integer"}},
+      "rule": {"greaterThan": 10, "nonExisiting": true}
+    }
+  }
+}
